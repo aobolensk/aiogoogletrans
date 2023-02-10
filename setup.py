@@ -57,7 +57,7 @@ def install():
         packages=find_packages(exclude=["docs", "tests"]),
         keywords="google translate translator",
         install_requires=[
-            "httpx[http2]==0.23.0",
+            "httpx[http2]==0.23.3",
         ],
         tests_require=[
             "pytest",
